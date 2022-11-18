@@ -1,2 +1,2 @@
 # project
-HTML &amp; CSS november 2022
+ HTML & CSS november 2022
