@@ -2,40 +2,46 @@
 <html lang="ru">
   <head>
 	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./css/style.css">
-	<title>Марафон "Заверстаю" Академии HTML</title>
+	<title>korzhis Заверстаю | Академия HTML</title>
   </head>
   <body>
-	<header>
-	  <a href="">
-		<img src="img/logo.png" width="146" height="60" alt="Логотип.">/*лого шапки*/
+	<header class="header">
+	  <a href="#" class="logo">
+		<img src="img/logo.png" width="146" height="60" alt="Логотип.">
 	  </a>
-	  <nav><-- базовая навигация из шапки -->
-		<ul>
-		  <li>
-			<a href="#">Home</a>
+	  <nav class="navigation">
+		<ul class="navigation__list">
+		  <li class="navigation__item">
+			<a class="navigation__link" href="index.html">Home</a>
 		  </li>
-		  <li>
-			<a href="#">About Us</a>
+		  <li class="navigation__item">
+			<a class="navigation__link" href="index.html">About Us</a>
 		  </li>
-		  <li>
-			<a href="#">Goals</a>
+		  <li class="navigation__item">
+			<a class="navigation__link" href="index.html">Goals</a>
 		  </li>
 		</ul>
 	  </nav>
-	  <ul>/*поиск, кабинет, меню шапки*/
-		<li>
-		    <button type="button">
+	  <ul>
+		<li class="controls__item">
+		    <button class="controls__button" type="button">
+				<span class="visually-hidden">Search</span>
 				<img src="img/headersearch.svg" width="35" height="35" alt="Поиск.">
 			</button>
 		</li>
-		<li>
-			<button type="button">
+		<li class="controls__item">
+		    <button class="controls__button" type="button">
+				<span class="visually-hidden">Login</span>
 				<img src="img/headermen.svg" width="35" height="35" alt="Поиск.">
 			</button>
 		</li>
-		<li>
-			<button type="button">
+		<li class="controls__item">
+		    <button class="controls__button" type="button">
+				<span class="visually-hidden">Open menu</span>
 				<img src="img/headerburger.svg" width="35" height="35" alt="Поиск.">
 			</button>
 		</li>
