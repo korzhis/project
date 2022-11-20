@@ -140,10 +140,6 @@ li {
   transition: 300ms;
 }
 
-.link:focus {
-  fill: #406343;
-}
-
 .visually-hidden { 
   position: absolute;
   width: 1px;
