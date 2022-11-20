@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap">
 		<link rel="stylesheet" href="./css/style.css">
 		<title>korzhis Заверстаю | Академия HTML</title>
   	</head>
@@ -32,43 +32,56 @@
 			<ul class="controls__list">
 				<li class="controls__item">
 					<button class="button controls__button" type="button">
-						<span class="visually-hidden">Search</span>
-						<img src="img/headersearch.svg" width="35" height="35" alt="Поиск.">
+						<a class="controls__link" href="index.html">
+							<span class="visually-hidden">Search</span>
+							<img src="img/headersearch.svg" width="35" height="35" alt="Поиск.">
+						</a>
 					</button>
 				</li>
 				<li class="controls__item">
 					<button class="button controls__button" type="button">
-						<span class="visually-hidden">Login</span>
-						<img src="img/headermen.svg" width="35" height="35" alt="Поиск.">
+						<a class="controls__link" href="index.html">
+							<span class="visually-hidden">Login</span>
+							<img src="img/headermen.svg" width="35" height="35" alt="Поиск.">
+						</a>
 					</button>
 				</li>
 				<li class="controls__item">
 					<button class="button controls__button" type="button">
-						<span class="visually-hidden">Open menu</span>
-						<img src="img/headerburger.svg" width="35" height="35" alt="Поиск.">
+						<a class="controls__link" href="index.html">
+							<span class="visually-hidden">Open menu</span>
+							<img src="img/headerburger.svg" width="35" height="35" alt="Поиск.">
+						</a>
 					</button>
 				</li>
 			</ul>
 		</header>
-		<main class="content">
+
+		<main class="content">			
+			<h1 class="visually-hidden">Лев.</h1>
+
 			<img class="lin" src="img/lettersliandn.svg" width="894" height="208" alt="Надпись на английском 'LION'.">
-			<span class="title">
-				
-			</span>
-			<button class="button mouse__button" type="button">
-				<span class="visually-hidden">Перейти на другую страницу</span>
-				<img src="img/mouse.svg" width="40" height="58" alt="Перейти на другую страницу.">
+
+			<button class="button controls__button" type="button">
+				<a href="index.html">
+					<span class="visually-hidden">Перейти на другую страницу</span>
+					<img class="button__mouse" src="img/mouse.svg" width="40" height="58" alt="Перейти на другую страницу.">
+				</a>
 			</button>
-			<button class="button play__button" type="button">
-				<span class="visually-hidden">Посмотреть видео об охоте на львов</span>				
-				<img class="buttonimage" src="img/playbutton.svg" width="45" height="45" alt="Посмотреть видео об охоте на львов.">
-				<span class="buttontext">Watch The Movie</span>
+
+			<button class="button controls__button" type="button">
+				<a class="button__movie" href="index.html">
+					<span class="visually-hidden">Посмотреть видео об охоте на львов</span>				
+					<img class="button__movie" src="img/playbutton.svg" width="45" height="45" alt="Посмотреть видео об охоте на львов.">
+					<span>Watch The Movie</span>
+				</a>
 			</button>
 		</main>
+
 		<aside class="subtitle">
 			<span class="visually-hidden">Подзаголовок</span>
-			<img class="subtitleimage" src="img/whykilledanimals.svg" width="316.62" height="21.57" alt="Подзаголовок.">
-			<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam feugiat aliquam amet, enim etiam mattis ac tortor. Diam nunc, conguer</p>
+			<img class="subtitle__image" src="img/whykilledanimals.svg" width="316.62" height="21.57" alt="Подзаголовок.">
+			<p class="subtitle__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam feugiat aliquam amet, enim etiam mattis ac tortor. Diam nunc, conguer</p>
 		</aside>
     </body>
 </html>
