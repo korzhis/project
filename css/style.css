@@ -120,16 +120,28 @@ li {
   padding: 0;
   top: 674.64px;
   left: 1344px;
-  max-width: 429px;
+  width: 429px;
+}
+
+.subtitle__header {
+  text-transform: uppercase;
+  font-size: 30px;
 }
 
 .subtitle__text {
-  color: rgba(179, 179, 179, 0.8);;
+  font-style: regular;
+  align: left;
+  vertical-align: top;
+  color: rgba(179, 179, 179, 0.8);
 }
 
-.navigation__link:hover{
+.navigation__link:hover {
   color: #406343;
   transition: 300ms;
+}
+
+.link:focus {
+  fill: #406343;
 }
 
 .visually-hidden { 
