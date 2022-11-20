@@ -1,6 +1,8 @@
 body {
   width: 1920px;
   height: 1080px;
+  margin: 0;
+  padding: 0;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -21,18 +23,30 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1828px;
   height: 60px;
-
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
 }
 
-.navigation__list { 
+.navigation__list { /* ширина навигации */
   display: flex;
   justify-content: space-between;
   width: 349px;
   height: 48px;
 }
 
-.controls__list {  
+.navigation__link { /* оформление текста навигации */
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37.5px;
+  color: white;
+  text-decoration: none;
+}
+
+.controls__list {  /* ширина группы поиска, логина и бургера */
   display: flex;
   justify-content: space-between;
   width: 165px;
@@ -40,10 +54,10 @@ img {
 }
 
 li {
-  list-style-type: none; /* Убираем маркеры */
+  list-style-type: none; /* убираем маркеры в хэдере*/
  }
 
-.content {
+.content { /* выравниваем содержимое main по центру*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,6 +71,31 @@ li {
 .lin {
   margin-top: 316px;
   margin-bottom: 119px;
+}
+
+.play__button{
+  display: flex;
+  align-items: center;
+}
+
+.buttontext{ /* оформление текста кнопки */
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 38px;
+  color: white;
+  text-decoration: none;
+}
+
+.subtitle {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 674.64px;
+  left: 1344px;
+}
+
+.text {
+  max-width: 429px;
 }
 
 .visually-hidden { 
