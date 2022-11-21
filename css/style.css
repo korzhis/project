@@ -63,7 +63,14 @@ body {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  transition: fill 0.15s ease-in;
 }
+
+/*Не работает, не понимаю почему:
+
+.controls__link:hover {
+  fill: #406343;
+}*/
 
 li {
   list-style-type: none; /* убираем маркеры в хэдере */
@@ -79,6 +86,11 @@ li {
   position: absolute;
   top: 408px;
   left: 449px;
+  transition: transform 0.3s ease-in;
+}
+
+.letters__lin:hover {
+  transform: scale(0.95);
 }
 
 .content { /* делаем содержимое main флекс-элементами*/
