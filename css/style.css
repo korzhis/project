@@ -43,6 +43,7 @@ body {
   line-height: 37.5px;
   color: #ffffff;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .line { /* что-то приближенное к нужному подчеркиванию. через ::after не получилось */
@@ -61,6 +62,7 @@ body {
 .controls__link {
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 li {
@@ -70,6 +72,7 @@ li {
 .button { /* убираем фон у кнопок */
   background: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .letters__lin { /* позиционируем буквы LI и N */
