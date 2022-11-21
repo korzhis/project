@@ -58,6 +58,11 @@ body {
   height: 35px;
 }
 
+.controls__link {
+  background-color: transparent;
+  border: none;
+}
+
 li {
   list-style-type: none; /* убираем маркеры в хэдере */
  }
@@ -129,8 +134,7 @@ li {
 }
 
 .subtitle__text {
-  font-style: regular;
-  align: left;
+  font-style: normal;
   vertical-align: top;
   color: rgba(179, 179, 179, 0.8);
 }
